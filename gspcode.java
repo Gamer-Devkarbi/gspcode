@@ -22,7 +22,7 @@ class gspcode2
         developerPrint();
         reset();
     }
-    public static void input()
+    public static void input(String[] args)
     {
         System.out.println("Enter the prompt.");
         prompt=sc.nextLine().trim();
